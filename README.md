@@ -8,7 +8,7 @@ Use `npm i && npm start` to run the server.
 
 Prereq: Add `127.0.0.1 domainCookieTest.example.test` to your hosts file or otherwise set up DNS record to point to this server.
 
-Route: /domain-cookie (e.g, http://domainCookieTest.example.test:3000)
+Route: /domain-cookie (e.g, http://domainCookieTest.example.test:3000/domain-cookie)
 VERBS:
 
 - GET - echos the cookie if it exists
